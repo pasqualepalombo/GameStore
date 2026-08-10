@@ -1,0 +1,2 @@
+GET http://localhost:5102/games
+//GET http://localhost:5102/games/1

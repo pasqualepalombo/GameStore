@@ -13,7 +13,14 @@ aggiungo progetto alla soluzione: dotnet sln add GameStore.Api
 --GIORNO 2--
 dotnet new gittignore
 debug basics
-
+Games REST API da implementare: GET     /games 
+                                GET     /games/id
+                                POST    /games
+                                PUT     /games/id
+                                DELETE  /games/id
+Installato REST Client e creato il file games.http dove mettere le richieste
+Creata la lista fissa di giochi per test
+Creato l'endpoint GET /games
 
 
 nb: 
