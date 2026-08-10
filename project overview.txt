@@ -11,8 +11,13 @@ crezione progetto ASP.NET Core Empty: dotnet new web -o GameStore.Api
 aggiungo progetto alla soluzione: dotnet sln add GameStore.Api
 
 --GIORNO 2--
+dotnet new gittignore
+debug basics
+
 
 
 nb: 
 CTRL + J per aprire/chiudere il terminale
 CTRL + P commande palette
+CTRL + SHIFT + B build command
+F5 Start Debugging (http configuration)
