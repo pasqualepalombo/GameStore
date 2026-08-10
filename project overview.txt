@@ -1,0 +1,18 @@
+Sito front e back end per un negozio di videogiochi.
+Dove si inseriscono i prodotti (nome, genere, prezzo, datauscita) e possono essere modificati e cancellati.
+Ha un DB con REST APIm CRUD con DTO per comunicare
+Handle validation input
+Si usa EF core
+
+--GIORNO 1--
+dotnet new list: lista dei progetti che si possono creare
+creo soluzione: dotnet new sln
+crezione progetto ASP.NET Core Empty: dotnet new web -o GameStore.Api
+aggiungo progetto alla soluzione: dotnet sln add GameStore.Api
+
+--GIORNO 2--
+
+
+nb: 
+CTRL + J per aprire/chiudere il terminale
+CTRL + P commande palette
