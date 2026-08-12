@@ -22,9 +22,14 @@ Installato REST Client e creato il file games.http dove mettere le richieste
 Creata la lista fissa di giochi per test
 Creato l'endpoint GET /games
 
+--GIORNO 3--
+Creato l'endpoint GET /games/id
+Creato l'endpoint POST /games
+
 
 nb: 
 CTRL + J per aprire/chiudere il terminale
 CTRL + P commande palette
 CTRL + SHIFT + B build command
 F5 Start Debugging (http configuration)
+F2 sulla variabile per modificarla su tutte le coincidenze
