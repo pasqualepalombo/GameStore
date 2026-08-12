@@ -1,2 +1,15 @@
 GET http://localhost:5102/games
-//GET http://localhost:5102/games/1
+###
+GET http://localhost:5102/games/1
+###
+POST http://localhost:5102/games
+Content-Type: application/json
+
+{
+    "name": "Grand Theft Auto 6",
+    "genre": "Action",
+    "price": 99.99,
+    "releaseDate": "2026-11-19"
+}
+
+###
