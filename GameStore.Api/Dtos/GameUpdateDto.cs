@@ -1,6 +1,6 @@
 namespace GameStore.Api.Dtos;
 
-public record GameCreateDto (
+public record GameUpdateDto (
     string Name,
     string Genre,
     decimal Price,

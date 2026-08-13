@@ -26,6 +26,13 @@ Creato l'endpoint GET /games
 Creato l'endpoint GET /games/id
 Creato l'endpoint POST /games
 
+--GIORNO 4--
+Creato l'endpoint PUT /games/id
+Creato l'endpoint DELETE /games/id
+Refactor GET game, PUT game
+Estensione del program.cs con GamesEndpoints
+Uso del group per gli endpoints.
+
 
 nb: 
 CTRL + J per aprire/chiudere il terminale
