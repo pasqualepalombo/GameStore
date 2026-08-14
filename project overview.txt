@@ -33,6 +33,12 @@ Refactor GET game, PUT game
 Estensione del program.cs con GamesEndpoints
 Uso del group per gli endpoints.
 
+--GIORNO 5--
+Aggiunta la validazione per gli input
+Creati i modelli Game e genere
+Pacchetto NuGet: Microsoft.EntityFrameworkCore.Sqlite
+Creato il GameStoreContext
+Aggiunto il DbContext a program con connectionString
 
 nb: 
 CTRL + J per aprire/chiudere il terminale
