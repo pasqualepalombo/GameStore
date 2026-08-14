@@ -14,4 +14,6 @@ var app = builder.Build();
 //Sezione HTTP Request Pipeline
 app.MapGamesEndpoints();
 
+app.MigrateDb();
+
 app.Run();
