@@ -53,6 +53,10 @@ Logging per Microsoft.EntityFrameworkCore.Database.Command impostati da Warning 
 Data Seeding in DataExtension
 Configuration GameStoreDB per appsettings, refactor
 
+--GIORNO 7--
+  Refactor Dto con i modelli del db
+  Refactor con Async
+
 nb: 
 CTRL + J per aprire/chiudere il terminale
 CTRL + P commande palette

@@ -16,6 +16,11 @@ public static class DataExtensions
     public static void AddGameStoreDb(this WebApplicationBuilder builder)
     {
         var connectionString = builder.Configuration.GetConnectionString("GameStore");
+        //qui è stato aggiunto GameStoreContext come Scoped
+        // 1.nuova instanza per ogni richiesta
+        // 2.la connessione DB è limitata (poichè costosa)
+        // 3.Dbcontext non è thread-safe perciò Scoped evita problemi di concorrenza
+
         builder.Services.AddSqlite<GameStoreContext>(
             connectionString,
             optionsAction: options => options.UseSeeding((context, _) =>
